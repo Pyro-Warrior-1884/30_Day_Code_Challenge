@@ -9,7 +9,6 @@ low = 0
 high = len(arr) -1
 mid = 0
 
-i = 0
 while (mid <= high):
     if arr[mid] == 0:
         arr[mid],arr[low] = arr[low],arr[mid]
